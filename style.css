@@ -1,0 +1,23 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.unl {
+    text-decoration: underline;
+}
+#container {
+    display: grid;
+    grid-template-columns: repeat(6, 200px);
+    justify-content: center;
+    text-align: center;
+}
+#containerH{
+    text-align: center;
+    height: 125px;
+}
+#item {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 3px;
+    height: 100px;
+    line-height: 100px;
+    font-size: 100px; 
+}
